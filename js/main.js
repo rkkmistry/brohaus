@@ -1,4 +1,4 @@
-var deadline = toSeconds(18, 0, 0);
+var deadline = toSeconds(16, 0, 0);
 var timeWindow = toSeconds(2, 0, 0);
 
 function getTimeRemaining(endtime) {
