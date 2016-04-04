@@ -24,7 +24,7 @@ function initializeClock(id, endtime) {
     clock.innerHTML = textMaker("Get ready, guys!", "until Brohaus begins", t);
     
     if (t.remaining <= 0 && t.remaining >= -timeWindow) {
-      clock.innerHTML = textMaker("Get ready, guys!", "until Brohaus is over", windowTime);
+      clock.innerHTML = textMaker("Hop in a taxi, dudes!", "until Brohaus is over", windowTime);
     } else if (t.remaining < -timeWindow) {
       clock.innerHTML = "<div class = 'big-text'>Sorry bud, you missed Brohaus today... </div>" +
                         "<div class = 'small-text'>but remember there's always tomorrow</div>";
